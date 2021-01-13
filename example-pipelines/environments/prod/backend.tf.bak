@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "tuto-deploy-containerized-app-tfstate"
+    bucket = "PROJECT_ID-tfstate"
     prefix = "env/prod"
   }
 }
